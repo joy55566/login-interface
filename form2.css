@@ -60,6 +60,7 @@ input[type="email"], input[type="password"], input[type="text"]{
     font-weight: bold;
     color: #333;
     border-radius: 15px;
+    font-size: 17px;
 }
 .mini {
     margin-left: 16%;

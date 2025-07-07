@@ -63,7 +63,7 @@ input[type="email"], input[type="password"], input[type="text"]{
 #gg, #ff, #tt{
     color: #000000;
     font-size: 15px;
-    margin-left: 15%;
+   
 }
 
 #button{
@@ -79,7 +79,7 @@ ul{
     justify-content: center;
     gap: 9%;
     margin-top: 3%;
-    margin-right: 11%;
+    margin-right: 6%;
     
 }
 p{
@@ -115,6 +115,29 @@ button i{
                 -5px -5px 8px #ffffff;
     transition: 0.2s ease-in-out;
     text-decoration: none;
+}
+
+#gg:hover {
+    background: #db4437;
+    color: white;
+    transform: scale(1.1);
+}
+
+#ff:hover {
+    background: #4267b2;
+    color: white;
+    transform: scale(1.1);
+}
+
+#tt:hover {
+    background: #1da1f2;
+    color: white;
+    transform: scale(1.1);
+}
+
+#gg:hover i, #ff:hover i, #tt:hover i {
+    color: white !important;
+    transform: scale(1.2);
 }
 
 #gg:active, #ff:active, #tt:active {
@@ -171,4 +194,13 @@ h1 {
     color: #333;
     margin-bottom: 31px;
     margin-top: 20px;
+}
+
+#button:hover,.button1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.button2:hover{
+    cursor: pointer;
 }

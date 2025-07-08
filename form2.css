@@ -57,12 +57,25 @@ div .level, .input{
 
 .icon-input i {
     position: absolute;
-    left: 15px;
     top: 12px;
     color: #666;
     font-size: 18px;
     display: flex;
     align-items: center;
+}
+
+.icon-input i:first-child {
+    left: 15px;
+}
+
+.icon-input i:last-child {
+    right: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icon-input i:last-child:hover {
+    color: #333;
 }
 
 .icon-input input {

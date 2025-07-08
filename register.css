@@ -50,12 +50,26 @@ div .level, .input{
     margin-bottom: 1%;
     font-size: 17px;
 }
-input[type="email"], input[type="password"], input[type="text"]{
+
+.icon-input {
+    position: relative;
     width: 80%;
+}
+.icon-input i {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    color: #666;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.icon-input input {
+    width: 100%;
     height: 45px;
     border-radius: 5px;
     border: none;
-    padding-left: 10px;
+    padding-left: 45px;
     background: #e0e5ec;
     box-shadow: inset 4px 4px 6px #a3b1c6,
                 inset -4px -4px 6px #ffffff;
@@ -64,6 +78,7 @@ input[type="email"], input[type="password"], input[type="text"]{
     border-radius: 15px;
     font-size: 17px;
 }
+
 #gg, #ff, #tt{
     color: #000000;
     font-size: 15px;

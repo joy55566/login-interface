@@ -38,9 +38,17 @@ div .button1, .button2{
 .button1{
     
     margin-left: 15%;
+        text-decoration: none;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
 }
 .button2{
     margin-right: 15%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div .level, .input{
     margin-left: 5%;
